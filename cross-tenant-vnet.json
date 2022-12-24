@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "roleName": "Vnet peering permisssions",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/9f963986-4554-42cd-86c8-XXXXXXXXXXXXXXXX"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/write",
+                    "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/read",
+                    "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/delete",
+                    "Microsoft.Network/virtualNetworks/peer/action",
+                    "Microsoft.ClassicNetwork/virtualNetworks/peer/action"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

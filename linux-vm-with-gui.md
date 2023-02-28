@@ -19,3 +19,5 @@ sudo service xrdp restart
 ```
 
 Done !! Now RDP insode your VM
+
+Install Chrome as no default Browser --> sudo apt-get install chromium-browser

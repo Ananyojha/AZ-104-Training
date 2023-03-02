@@ -13,3 +13,7 @@ az vm extension set \
  --vm-name myVM \
  --settings '{ "fileUris": ["https://raw.githubusercontent.com/Azure/azure-docs-powershell-samples/master/application-gateway/iis/install_nginx.sh"], "commandToExecute": "./install_nginx.sh" }'
  ```
+##### view logs for custom script 
+1. for linux navigate to `/var/log/azure/custom-script/handler.log` file 
+- ```sudo tail -f /var/log/azure/custom-script/handler.log```
+2. for windows navigate to `C:\WindowsAzure\Logs\Plugins\Microsoft.Compute.CustomScriptExtension\<version>`
